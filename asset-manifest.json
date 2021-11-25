@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/glacksite/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/glacksite/static/js/main.a96676e2.chunk.js",
+    "main.js.map": "/glacksite/static/js/main.a96676e2.chunk.js.map",
+    "runtime-main.js": "/glacksite/static/js/runtime-main.d9e36e97.js",
+    "runtime-main.js.map": "/glacksite/static/js/runtime-main.d9e36e97.js.map",
+    "static/js/2.3199fa6c.chunk.js": "/glacksite/static/js/2.3199fa6c.chunk.js",
+    "static/js/2.3199fa6c.chunk.js.map": "/glacksite/static/js/2.3199fa6c.chunk.js.map",
+    "static/js/3.23cce920.chunk.js": "/glacksite/static/js/3.23cce920.chunk.js",
+    "static/js/3.23cce920.chunk.js.map": "/glacksite/static/js/3.23cce920.chunk.js.map",
+    "index.html": "/glacksite/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/glacksite/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.3199fa6c.chunk.js.LICENSE.txt": "/glacksite/static/js/2.3199fa6c.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/glacksite/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9e36e97.js",
+    "static/js/2.3199fa6c.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.a96676e2.chunk.js"
+  ]
+}
