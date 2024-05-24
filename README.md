@@ -1,2 +1,2 @@
-## MylesGG
-hello everyone
+## Myles G.
+Hello everyone!
