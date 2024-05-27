@@ -1,14 +1,14 @@
 {
   "name": "mylesgg",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx eleventy --serve"
   },
   "keywords": [],
   "author": "Myles G.",
   "license": "ISC",
-  "description": "",
+  "description": "Hello everyone!",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   }
