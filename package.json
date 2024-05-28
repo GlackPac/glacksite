@@ -11,5 +11,8 @@
   "description": "Hello everyone!",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
