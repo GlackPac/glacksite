@@ -4,7 +4,7 @@ html {
   }
   
   body {
-    margin: 0 auto 0 1em;
+    margin: 0 1ch 0 1em;
     width: 100%;
     max-width: 80ch;
     padding: 1%;
@@ -21,6 +21,19 @@ html {
   }
 
   /* nav styles */
+
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: #ff9776;
+}
 
 .nav-links {
   width: 100%;
@@ -52,7 +65,7 @@ html {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
+    /* margin-left: 5em; */
     display: block;
     position: static;
     width: auto;
@@ -62,6 +75,10 @@ html {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
   }
 
 }
