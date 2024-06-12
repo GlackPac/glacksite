@@ -2,6 +2,23 @@ html {
     background-color: #f1f5f9;
     font-family: sans-serif;
   }
+
+  html.dark {
+    background-color: #0d0950;
+    color: #fff;
+  }
+  
+  .dark .nav-links a {
+    color: #fff;
+  }
+
+  .dark a {
+    color: #fff;
+  }
+
+  .dark a:visited {
+    color: #ff9776;
+  }
   
   body {
     margin: 0 1ch 0 1em;
