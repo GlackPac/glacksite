@@ -1,10 +1,10 @@
 html {
-    background-color: #f1f5f9;
+    background-color: #BAC1B8;
     font-family: sans-serif;
   }
 
   html.dark {
-    background-color: #0d0950;
+    background-color: #3F473D;
     color: #fff;
   }
   
@@ -17,15 +17,51 @@ html {
   }
 
   .dark a:visited {
-    color: #ff9776;
+    background-color: #ff9776;
+  }
+
+  .square {
+    margin: 0.2em 0.2em;
+    width: 3ch;
+    height: 3ch;
+    border: solid 2px black;
+    border-radius: .5em;
+  }
+
+  .dark .square {
+    margin: 0.2em 0.2em;
+    width: 3ch;
+    height: 3ch;
+    border: solid 2px white;
+    border-radius: .5em;
+  }
+
+  .color-palette-1 {
+    background-color: #BAC1B8;
+  }
+
+  .dark .color-palette-1 {
+    background-color: #3F473D;
+  }
+
+  .color-palette-2 {
+    background-color: #58A4B0;
+  }
+
+  .color-palette-3 {
+    background-color: #0C7C59;
   }
   
   body {
     margin: 0 1ch 0 1em;
-    width: 100%;
+    width: 95%;
     max-width: 80ch;
     padding: 1%;
     line-height: 1.5;
+  }
+
+  nav {
+    display: flex;
   }
   
   * {
@@ -49,14 +85,13 @@ html {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #58A4B0;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
   display: none;
   margin: 0;
 }
@@ -68,12 +103,13 @@ html {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
+  color: #07835C;
   text-transform: uppercase;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #58A4B0;
 }
 
 .expanded {

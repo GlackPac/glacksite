@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Greeting from "../components/Greeting";
+const pageTitle = "Workbench";
+---
+<BaseLayout pageTitle={pageTitle}>
+    <p>Dumping ground for various little snippets from this project and elsewhere</p>
+	<Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+</BaseLayout>

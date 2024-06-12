@@ -3,7 +3,7 @@ import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle = {frontmatter.title}>
-    <p>Written by {frontmatter.author}</p>
+    <p>Written by <a href="/about/">{frontmatter.author}</a></p>
     <p>Published on: {frontmatter.pubDate.toString().slice(0,10)}</p>
     <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt}>
     <hr/>
@@ -16,7 +16,7 @@ const { frontmatter } = Astro.props;
     </div>
     <style>
         a {
-          color: #00539F;
+          color: #0C7C59;
         }
       
         .tags {
