@@ -3,36 +3,11 @@ import '../styles/global.css';
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const pageTitle = "About";
-
-const identity = {
-  firstName: "Myles",
-  country: "Australia",
-  occupation: "IT support guy",
-  hobbies: ["hiking", "birdwatching", "gaming", "playing the violin", "drawing"],
-};
-
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs", "Python", "Powershell"];
-
-const finished = true;
-
-const skillColour = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
 ---
-<BaseLayout pageTitle = {pageTitle}>
-	<p>In between jobs, hobbies, countries and projects. Working on becoming a someone.</p>
-          
-	<p>Here are a few facts about me:</p>
-	<ul>
-		<li>My name is {identity.firstName}.</li>
-		<li>I live in {identity.country} and have worked mostly as an {identity.occupation}.</li>
-		{identity.hobbies.length >= 2 &&
-			<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-		}
-	</ul>
-	<p>Coding language wise, I'm familiar with:</p>
-	<ul>
-		{skills.map((skill) => <li class="skill">{skill}</li>)}
-	</ul>
-	{finished && <p>Have recently finished the astro tutorial and am working on cleaning up the site for more to come.</p>}
+<BaseLayout pageTitle={pageTitle}>
+<p>Hello again, Myles here. Welcome to my personal site. In between jobs, hobbies, countries and self-identities.</p>
+<p>I've been an avid video game liker since first playing Halo and Half-Life 2 on my uncle's PC. I was 6 years old. I got stuck in the water turbine 'puzzle' during the metro escape section and gave up.</p>
+<p>Since then I've been through many consoles and genres and currently enjoy titles such as Rain World, Devil May Cry 3, Disco Elysium and Metroid Fusion (my beloved). I have a soft-spot for Earthbound-likes too.</p>
+<p>Outside of games, I've been building a hunger for 90s DnB, J-Pop and jungle music. Casiopea's Mint Jams and Taeko Onuki's Aventure are some of my favorite albums. I also find any music with a violin particularly tasty.</p>
+<p>In an effort to consume less and create more; I've made this site. One day I might update the bottom of this page with something cool. Or not.</p>
 </BaseLayout>

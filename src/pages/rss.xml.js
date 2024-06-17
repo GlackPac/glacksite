@@ -5,7 +5,7 @@ export async function GET(context) {
     title: 'Myles G | Astro Tutorial Blog',
     description: 'My journey learning Astro',
     site: context.site,
-    items: await pagesGlobToRssItems(import.meta.glob('./**/*.md')),
+    items: await pagesGlobToRssItems(import.meta.glob('./**/*.mdx')),
     customData: `<language>en-us</language>`,
   });
 }
