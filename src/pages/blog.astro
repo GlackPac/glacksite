@@ -7,5 +7,5 @@ const allPosts = await Astro.glob('../pages/posts/*.mdx')
 const pageTitle = "Blog";
 ---
 <BaseLayout pageTitle ={pageTitle}>
-	{allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} />)}
+	{allPosts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate}/>)}
 </BaseLayout>
