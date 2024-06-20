@@ -1,11 +1,13 @@
 html {
     background-color: #BAC1B8;
     font-family: sans-serif;
+    height: 95%;
   }
 
   html.dark {
     background-color: #3F473D;
     color: #fff;
+    height: 95%;
   }
   
   .dark .nav-links a {

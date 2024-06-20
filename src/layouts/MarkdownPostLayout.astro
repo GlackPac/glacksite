@@ -1,9 +1,17 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import BlogImage from "../components/BlogImage.astro";
 const { frontmatter } = Astro.props;
+
+function dateStringBeautifer(str, char, position) {
+    let charArray = str.split('');
+    charArray.splice(position, 0, char);
+    return charArray.join('');
+}
 ---
 <BaseLayout pageTitle = {frontmatter.title}>
-    <p>Published on: {frontmatter.pubDate.toString().slice(0,10)}</p>
+    <p>Published on: {dateStringBeautifer(frontmatter.pubDate.toString().slice(4,15), ",", 6)}</p>
     <hr/>
+    <BlogImage src={frontmatter.image} alt="whatever man lol"/>
     <slot />
 </BaseLayout>
