@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import BlogImage from '../components/BlogImage.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Gallery";
+const testGallery = await getCollection("gallery")
+---
+<BaseLayout pageTitle={pageTitle}>
+    {
+        testGallery.map((item) => (
+        <a
+          href={`/gallery/${item.id}`}
+        >
+        <BlogImage src={item.data.image} alt="bite me"/>
+        </a>
+    ))}
+</BaseLayout>

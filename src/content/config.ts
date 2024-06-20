@@ -12,10 +12,13 @@ const postsCollection = defineCollection({
 });
 const galleryCollection = defineCollection ({
   type: 'data',
-  schema: z.object({
+  schema: ({ image }) => z.object({
+    title: z.string(),
+    image: image()
   })
-})
+});
 // Export a single `collections` object to register your collection(s)
 export const collections = {
-  posts: postsCollection,
+  'posts': postsCollection,
+  'gallery': galleryCollection
 };
