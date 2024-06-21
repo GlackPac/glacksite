@@ -8,16 +8,16 @@ const { pageTitle } = Astro.props;
 ---
 <html transition:animate="none" lang="en">
 	<head>
-		<script is:inline>
+		<!-- <script is:inline>
 			// The configured mode is stored in local storage
 			const isDarkMode = localStorage.getItem('theme');
-	
+		
 			// Set theme to 'dark' if darkMode = 'true'
 			const theme = isDarkMode === 'true' ? 'dark' : '';
-	
+		
 			// Put dark class on html tag to enable dark mode
 			document.querySelector("html").className = theme;
-		</script>
+		  </script> -->
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
@@ -30,8 +30,12 @@ const { pageTitle } = Astro.props;
     <h1 transition:animate="slide">{pageTitle}</h1>
     <slot />
 		<Footer/>
-    <script>
-      import "../scripts/menu.js"
-    </script>
+		<script is:inline>
+			document.addEventListener('astro:page-load', () => {
+				document.querySelector('.hamburger').addEventListener('click', () => {
+				document.querySelector('.nav-links').classList.toggle('expanded');
+				});
+			});
+		</script>
 	</body>
 </html>

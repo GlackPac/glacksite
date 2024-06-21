@@ -1,0 +1,17 @@
+---
+title: 'checking back in'
+pubDate: 2024-06-18
+tags: ["placeholder", "this'll be gone soon"]
+image: '../../assets/18Jun24.jpg'
+---
+
+For the first time in a while I've developed a new habit. Every day I list anything that made me feel strongly or is personally important. In the interest of not waking up my decade-strong depresion engine, I've elected to keep it to the positive. New activities or hobbies get a +. Certain soul-enriching moments also get a +. Depending on the magintude on the soul richter scale, I add up to 2 more pluses. For a sense of scale, going for a jog or having an authentic chat would be a +. I'll leave the rest of the scaling to imagination. They take the form of highly personal memos.
+
+Often, I'll run into a situation where I want to mark down a plus, but find myself lacking. I've had days with no marks at all. In a period of doubt for every molecule that makes me, I like to confirm the few feelings I do have, so as to have evidence of a personality. The hope is that it develops into something approaching a normal spectrum of emotion. I am emotionally stingy. Today's marks have been:
+
+- \+ Draws-AM
+- \+ Boots in the basement
+- ++ Cade Check-in
+- \+ talks
+
+The picture is from the A45 near Birmingham. With the updates to the site, that image and others should be cleaner on phones now (Thanks, Medium web team). Dates should be attached to blog posts in the full list too (Thanks, Peter Morgan). I have a patchwork quilt coding style currently. I know the location and function of the moving parts of this site. Very little has been directly written. I dont know if that's just modern coding, but it certainly feels like less of a skill in doing so.
