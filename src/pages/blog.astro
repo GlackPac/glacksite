@@ -8,5 +8,5 @@ const allPosts = await getCollection("posts")
 const pageTitle = "Blog";
 ---
 <BaseLayout pageTitle ={pageTitle}>
-	{allPosts.map((post) => <BlogPost url={`/posts/${post.slug}`} title={post.data.title} date={post.data.pubDate}/>)}
+	{allPosts.map((post) => <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} date={post.data.pubDate}/>)}
 </BaseLayout>
