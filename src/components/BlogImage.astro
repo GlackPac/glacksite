@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 const {src, alt} = Astro.props;
 ---
 <div class="imgbox">
-    <Image src={src} alt={alt} class="center-fit" quality="low"/>
+    <Image src={src} alt={alt} class="center-fit" width={1000}/>
 </div>
 <style>
         .imgbox {
