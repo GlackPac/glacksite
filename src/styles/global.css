@@ -1,10 +1,10 @@
 html {
-    background-color: #BAC1B8;
+    background-color: #FFF4D9;
     font-family: sans-serif;
   }
 
   html.dark {
-    background-color: #3F473D;
+    background-color: #3D220F;
     color: #fff;  
   }
   
@@ -37,19 +37,19 @@ html {
   }
 
   .color-palette-1 {
-    background-color: #BAC1B8;
+    background-color: #FFF4D9;
   }
 
   .dark .color-palette-1 {
-    background-color: #3F473D;
+    background-color: #3D220F;
   }
 
   .color-palette-2 {
-    background-color: #58A4B0;
+    background-color: #D3741A;
   }
 
   .color-palette-3 {
-    background-color: #0C7C59;
+    background-color: #9FBF5D;
   }
   
   body {
@@ -93,13 +93,13 @@ html {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #07835C;
+  color: #9FBF5D;
   text-transform: uppercase;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #58A4B0;
+  background-color: #D3741A;
 }
 
 .expanded {
