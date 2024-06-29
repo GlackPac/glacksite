@@ -54,10 +54,9 @@ html {
   
   body {
     margin: 0 1ch 0 1em;
-    width: 93%;
+    width: 95%;
     max-width: 80ch;
     padding: 1%;
-    padding-top: 1%;
     line-height: 1.5;
   }
 
@@ -80,31 +79,17 @@ html {
 
   /* nav styles */
 
-.hamburger {
-  padding-right: 20px;
-  cursor: pointer;
-}
-
-.hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #58A4B0;
-}
-
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  display: none;
   margin: 0;
 }
 
 .nav-links a {
-  display: block;
+  display: inline-flex;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
@@ -119,24 +104,4 @@ html {
 
 .expanded {
   display: unset;
-}
-
-@media screen and (min-width: 636px) {
-  .nav-links {
-    /* margin-left: 5em; */
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
-  }
-
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
-
-  .hamburger {
-    display: none;
-  }
-
 }
