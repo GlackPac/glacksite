@@ -1,84 +1,56 @@
 html {
-    background-color: #FFF4D9;
-    font-family: sans-serif;
-  }
+  background-color: #FFF4D9;
+  font-family: sans-serif;
+}
 
-  html.dark {
-    background-color: #3D220F;
-    color: #fff;  
-  }
-  
-  .dark .nav-links a {
-    color: #fff;
-  }
+.square {
+  margin: 0.2em 0.2em;
+  width: 3ch;
+  height: 3ch;
+  border: solid 2px black;
+  border-radius: .5em;
+}
 
-  .dark a {
-    color: #fff;
-  }
+.color-palette-1 {
+  background-color: #FFF4D9;
+}
 
-  .dark a:visited {
-    background-color: #ff9776;
-  }
+.dark .color-palette-1 {
+  background-color: #3D220F;
+}
 
-  .square {
-    margin: 0.2em 0.2em;
-    width: 3ch;
-    height: 3ch;
-    border: solid 2px black;
-    border-radius: .5em;
-  }
+.color-palette-2 {
+  background-color: #D3741A;
+}
 
-  .dark .square {
-    margin: 0.2em 0.2em;
-    width: 3ch;
-    height: 3ch;
-    border: solid 2px white;
-    border-radius: .5em;
-  }
+.color-palette-3 {
+  background-color: #9FBF5D;
+}
 
-  .color-palette-1 {
-    background-color: #FFF4D9;
-  }
+body {
+  margin: 0 1ch 0 1em;
+  width: 95%;
+  max-width: 80ch;
+  padding: 1%;
+  line-height: 1.5;
+}
+* {
+  box-sizing: border-box;
+}
 
-  .dark .color-palette-1 {
-    background-color: #3D220F;
-  }
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
 
-  .color-palette-2 {
-    background-color: #D3741A;
-  }
+h2 {
+  text-decoration: underline;
+}
 
-  .color-palette-3 {
-    background-color: #9FBF5D;
-  }
-  
-  body {
-    margin: 0 1ch 0 1em;
-    width: 95%;
-    max-width: 80ch;
-    padding: 1%;
-    line-height: 1.5;
-  }
-
-  nav {
-    display: flex;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-  }
-  
-  h2 {
-    text-decoration: underline;
-  }
-
-  /* nav styles */
-
+/* nav styles */
+nav {
+  display: flex;
+}
 .nav-wrap {
   display: flex;
   align-items: center;
@@ -111,4 +83,30 @@ html {
 
 .expanded {
   display: unset;
+}
+/* Dark mode CSS */
+
+/* .dark .square {
+  margin: 0.2em 0.2em;
+  width: 3ch;
+  height: 3ch;
+  border: solid 2px white;
+  border-radius: .5em;
+}
+  
+html.dark {
+  background-color: #3D220F;
+  color: #fff;  
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #fff;
+}
+
+.dark a:visited {
+  background-color: #ff9776;
 }
