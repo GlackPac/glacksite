@@ -79,15 +79,22 @@ html {
 
   /* nav styles */
 
-.nav-links {
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   top: 5rem;
   left: 48px;
   margin: 0;
 }
-
+.logo {
+  max-block-size: 100%;
+  block-size: 4rem;
+  aspect-ratio: auto 64/64;
+  object-fit: contain;
+}
 .nav-links a {
-  display: inline-flex;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -97,8 +104,8 @@ html {
   text-transform: uppercase;
 }
 
-.nav-links a:hover,
-.nav-links a:focus {
+.nav-wrap a:hover,
+.nav-wrap a:focus {
   background-color: #D3741A;
 }
 
