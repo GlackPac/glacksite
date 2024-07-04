@@ -1,23 +1,13 @@
 ---
-const { platform, username, svg} = Astro.props;
+import Icon from "./Icon.astro";
+const {platform, username} = Astro.props;
 ---
 <style>
-    a {
-      color: white;
-      text-decoration: none;
-    }
-    svg { 
-      fill: black;
-      height: 2rem;
-      width: 2rem;
-    }
-    :global(.dark) svg { fill: white; }
+  a {
+    color: white;
+    text-decoration: none;
+  }
 </style>
-
 <a href={`https://www.${platform}.com/${username}`}>
-  <svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 496 512">
-    <path d=`${svg}`/>
-  </svg>
+  <Icon svg={platform}, size="2rem"/>
 </a>
-
-

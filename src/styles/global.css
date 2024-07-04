@@ -15,9 +15,6 @@ html {
   background-color: #FFF4D9;
 }
 
-.dark .color-palette-1 {
-  background-color: #3D220F;
-}
 
 .color-palette-2 {
   background-color: #D3741A;
@@ -53,18 +50,17 @@ nav {
 }
 .nav-wrap {
   display: flex;
+  gap: 1rem;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   top: 5rem;
   left: 48px;
   margin: 0;
 }
 .logo {
-  max-block-size: 100%;
-  block-size: 4rem;
-  aspect-ratio: auto 64/64;
-  object-fit: contain;
+  block-size: 2rem;
+  aspect-ratio: auto 32/32;
+  border-radius: 80%;
 }
 .nav-links a {
   text-align: center;
@@ -86,7 +82,7 @@ nav {
 }
 /* Dark mode CSS */
 
-/* .dark .square {
+.dark .square {
   margin: 0.2em 0.2em;
   width: 3ch;
   height: 3ch;
@@ -94,13 +90,21 @@ nav {
   border-radius: .5em;
 }
   
+.dark svg { 
+  fill: white;
+}
+
+.dark .color-palette-1 {
+  background-color: #3D220F;
+}
+
 html.dark {
   background-color: #3D220F;
   color: #fff;  
 }
 
 .dark .nav-links a {
-  color: #fff;
+  color: #9FBF5D;
 }
 
 .dark a {
@@ -109,4 +113,11 @@ html.dark {
 
 .dark a:visited {
   background-color: #ff9776;
+}
+
+.theme-toggle {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
 }

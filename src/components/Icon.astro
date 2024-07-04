@@ -1,0 +1,7 @@
+---
+const {svg, size} = Astro.props;
+const { default: innerHTML } = await import(`../assets/svg/${svg}.svg?raw`);
+---
+<svg width={size}, height={size}>
+    <Fragment set:html={innerHTML} />
+</svg>

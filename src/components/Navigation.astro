@@ -1,14 +1,11 @@
 ---
-import Image from "astro/components/Image.astro"
-import icon from "../assets/favicon.svg"
+import Icon from "./Icon.astro";
 ---
-<div class="nav-wrap">
-    <a href="/" class="logo">
-        <Image src={icon} alt="The guy!" width={64}>
-    </a>
-    <nav class="nav-links">
-        <a href="/about/">About</a>
-        <a href="/blog/">Blog</a>
-        <a href="/workbench/">Misc.</a>
-    </nav>
-</div>
+<a href="/" class="logo">
+    <Icon svg="favicon" size="32">
+</a>
+<nav class="nav-links">
+    <a href="/about/">About</a>
+    <a href="/blog/">Blog</a>
+    <a href="/workbench/">Misc.</a>
+</nav>
