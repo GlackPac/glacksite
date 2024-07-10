@@ -3,6 +3,18 @@ html {
   font-family: sans-serif;
 }
 
+body {
+  margin: 0 1ch 0 1em;
+  width: 95%;
+  max-width: 100ch;
+  padding: 1%;
+  line-height: 1.5;
+}
+* {
+  box-sizing: border-box;
+}
+
+
 .square {
   margin: 0.2em 0.2em;
   width: 3ch;
@@ -24,16 +36,6 @@ html {
   background-color: #9FBF5D;
 }
 
-body {
-  margin: 0 1ch 0 1em;
-  width: 95%;
-  max-width: 80ch;
-  padding: 1%;
-  line-height: 1.5;
-}
-* {
-  box-sizing: border-box;
-}
 
 h1 {
   margin: 1rem 0;

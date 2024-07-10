@@ -1,20 +1,17 @@
 ---
-import { Image } from "@unpic/astro";
+import Image from "astro/components/Image.astro";
 const {src, alt} = Astro.props;
 ---
 <div class="imgbox">
-    <Image src={src} alt={alt} class="center-fit" width={1000}/>
+    <Image src={src} alt={alt} class="center-fit" width={700}/>
 </div>
 <style>
         .imgbox {
             display: grid;
-            height: 100%;
         }
         .center-fit {
             max-width: 100%;
-            width: 100%;
-            max-height: 150vh;
             height: auto;
-            aspect-ratio: auto;
+            aspect-ratio: auto 700/700;
         }
 </style>
