@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@astrojs/preact": "^3.4.0",
+    "@unpic/astro": "^0.0.46",
+    "@unpic/placeholder": "^0.1.2",
     "astro": "^4.9.2",
     "preact": "^10.22.0",
     "react": "^18.3.1",
