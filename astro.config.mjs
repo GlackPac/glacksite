@@ -5,5 +5,5 @@ import preact from "@astrojs/preact";
 export default defineConfig({
   site: "https://mylesg.me",
   outDir: './dist/',
-  integrations: [preact(),],
+  integrations: [preact(),]
 });

@@ -1,8 +1,12 @@
 ---
-//Image Details
-import { Image } from "@unpic/astro";
+import Image from "astro/components/Image.astro";
 const {src, alt} = Astro.props;
-import { blurhashToCssGradientString } from "@unpic/placeholder";
-const blurhashCSS = blurhashToCssGradientString("L46*BoM|00xtxtNHR%%100t7~VRj")
 ---
-<Image src={src} alt={alt} background={blurhashCSS}/>
+<Image src={src} alt={alt} class="center-fit" width={700}/>
+<style>
+        .center-fit {
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: auto;
+        }
+</style>
