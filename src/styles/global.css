@@ -121,3 +121,7 @@ html.dark {
   background: none;
   cursor: pointer;
 }
+
+.theme-toggle:hover {
+  background-color: #D3741A;
+}
