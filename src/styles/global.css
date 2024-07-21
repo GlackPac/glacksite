@@ -33,7 +33,7 @@ body {
 }
 
 .color-palette-3 {
-  background-color: #9FBF5D;
+  background-color: #7A9347;
 }
 
 
@@ -70,7 +70,7 @@ nav {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
-  color: #9FBF5D;
+  color: #7A9347;
   text-transform: uppercase;
 }
 
@@ -99,6 +99,11 @@ nav {
 .dark .color-palette-1 {
   background-color: #3D220F;
 }
+
+.dark .color-palette-3 {
+  background-color: #9FBF5D;
+}
+
 
 html.dark {
   background-color: #3D220F;
